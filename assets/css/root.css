@@ -124,10 +124,14 @@
     justify-content: center;
     transition: 350ms all linear;
     flex-direction: column;
-    z-index: 0;
+    z-index: 5 !important;
   }
   .overflow_hidden {
     overflow: hidden;
+  }
+  .menu {
+    position: absolute;
+    z-index: 10;
   }
   .menu span:nth-child(1) {
     height: 5px;
