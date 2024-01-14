@@ -138,6 +138,9 @@
 }
 
 /* -----------------button------------------ */
+.navBtn:hover {
+  -webkit-text-stroke: 1px;
+}
 
 .logoutBtn {
   border-radius: 23px;
@@ -182,7 +185,7 @@
   border-radius: 150px;
   background: #fff;
   transition: 350ms linear;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 .gocheckBtn:hover {
   background: #2c49fe;
@@ -195,7 +198,6 @@
   background: #2c49fe;
   border: 1px solid #2c49fe;
   border-radius: 23px;
-  width: 574px;
   transition: 350ms all linear;
 }
 .signUpBtn:hover {
@@ -234,6 +236,9 @@
 .py_2_4 {
   padding: 2px 0 4px;
 }
+.pt_95 {
+  padding-top: 95px;
+}
 
 .P_19_23 {
   padding: 17px 23px 17px 35px;
@@ -241,6 +246,7 @@
 .py_17_104 {
   padding: 17px 0 104px;
 }
+
 .p_45_20_17 {
   padding: 45px 20px 17px;
 }
@@ -253,8 +259,11 @@
 .pt_80 {
   padding-top: 80px;
 }
-.py_112_90 {
-  padding: 112px 0 90px;
+.py_122 {
+  padding: 122px 0;
+}
+.pb_90 {
+  padding-bottom: 90px;
 }
 
 /* ----------------------Margin----border-----width--------------- */
@@ -278,6 +287,9 @@
 }
 .mt_14 {
   margin-top: 14px;
+}
+.my_15 {
+  margin: 15px 0 !important;
 }
 .mt_15 {
   margin-top: 15px;
@@ -306,20 +318,18 @@
 .mt_40 {
   margin-top: 40px;
 }
-/* .mt_36 {
-  margin-top: 55px;
-} */
+
 .mt_36xsm {
   margin-top: 55px;
 }
 .mt_46 {
   margin-top: 46px !important;
 }
-.mt_95{
+.mt_95 {
   margin-top: 95px;
 }
-.my_137_73 {
-  margin: 137px 0 73px;
+.py_137_73 {
+  padding: 137px 0 73px;
 }
 .mt_145 {
   margin-top: 145px;
@@ -327,8 +337,8 @@
 .mt_163 {
   margin-top: 163px !important;
 }
-.mt_173 {
-  margin-top: 173px;
+.pt_173 {
+  padding-top: 173px;
 }
 
 .mx_962 {
@@ -354,31 +364,23 @@
 
 .inputBox {
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
-  background: rgba(0, 0, 0, 0);
-  width: 279px;
-  height: 42px;
-  outline: none;
-  flex-shrink: 0;
-  padding: 10px 0 8px 17px;
-}
-.inputBox_2 {
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
-  background: rgba(0, 0, 0, 0);
-  width: 574px;
-  outline: none;
-  height: 42px;
-  flex-shrink: 0;
-  padding: 10px 0 8px 17px;
-}
-.inputBox_3 {
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
-  background: rgba(0, 0, 0, 0);
-  height: 124px;
-  width: 574px;
-  flex-shrink: 0;
-  outline: none;
   padding: 10px 17px;
+  outline: none;
+  background: rgba(0, 0, 0, 0);
+  /* border-color: rgba(0, 0, 0, 0.4); */
+
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.text_area {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
+  padding: 10px 17px;
+  height: 124px;
+  resize: none;
+}
+
+.mx_336 {
+  max-width: 336px;
 }
